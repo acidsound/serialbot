@@ -1,0 +1,13 @@
+{
+  "name": "serialbot",
+  "private": true,
+  "scripts": {
+    "start": "meteor run -s settings.json"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.26.0",
+    "meteor-node-stubs": "^0.3.2",
+    "serialport": "^6.0.4",
+    "string_decoder": "^1.0.3"
+  }
+}

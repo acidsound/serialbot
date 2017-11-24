@@ -1,0 +1,24 @@
+<head>
+  <title>serialbot</title>
+</head>
+
+<body>
+  <h1>Meteor Serial Terminal</h1>
+  {{> main}}
+</body>
+
+<template name="main">
+  <form>
+    <div id="terminal">
+      <dl>
+        {{#each packets}}
+        <dd>{{message}}</dd>
+        <dt>{{fromNow createdAt}}</dt>
+        {{else}}
+        <h4>..empty</h4>
+        {{/each}}
+      </dl>
+    </div>
+    <input type="text" name="command" placeholder="ready to sir, my lord..." />
+  </form>
+</template>

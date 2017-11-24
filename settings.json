@@ -1,0 +1,7 @@
+{
+	"serial": {
+		"port": {
+			"name": "/dev/tty.wchusbserial1410"
+		}
+	}
+}
